@@ -7,10 +7,10 @@ function compare() {
   userInput =  parseInt(userInput)
 
   if (userInput < 0) {
-    userInput = document.getElementById('answer').innerHTML = 
-    "No, negetive"
+    userInput = document.getElementById('answer').innerHTML =
+    'No, negetive'
   } else {
-    userInput = document.getElementById('answer').innerHTML = 
-    "Yes, positive"
+    userInput = document.getElementById('answer').innerHTML =
+    'Yes, positive'
   }
 }
