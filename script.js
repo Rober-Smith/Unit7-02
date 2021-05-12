@@ -2,9 +2,9 @@ let userinput = 0
 
 document.getElementById('button').addEventListener('click', compare)
 
-function compare() {
+function compare () {
   userinput = document.getElementById('input').value
-  userinput =  parseInt(userInput)
+  userinput = parseInt(userinput)
 
   if (userinput < 0) {
     userinput = document.getElementById('answer').innerHTML =
